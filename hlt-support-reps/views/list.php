@@ -1,3 +1,4 @@
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?>
 <?php 
 global $wpdb,$woocommerce,$HLT_ITEMS_PER_PAGE;
 $qstr = $_SERVER['QUERY_STRING'];

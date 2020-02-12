@@ -1,3 +1,4 @@
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?>
 <?php 
 global $wpdb,$notice_table,$notice_cat_table;
 $notice_id = (int)$_GET['id'];

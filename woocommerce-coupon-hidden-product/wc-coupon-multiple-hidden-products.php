@@ -1,4 +1,5 @@
 <?php
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 add_action( 'woocommerce_coupon_options_usage_restriction', 'wcc_add_multiple_hidden_product_fields');
 add_action( 'woocommerce_coupon_options_save', 'wcc_save_multiple_hidden_product_fields');
 add_action( 'woocommerce_before_cart', 'dnc_add_multiple_hidden_product_to_cart' );

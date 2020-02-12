@@ -1,3 +1,4 @@
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?>
 <?php
     $cop_error = false;
     if(isset($_POST['save_btn'])){

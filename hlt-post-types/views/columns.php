@@ -1,4 +1,4 @@
-<?php 
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?><?php 
 global $wpdb,$hlt_pt_fields_table;
  
 if(isset($_POST['edit_save'])){

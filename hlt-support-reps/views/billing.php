@@ -1,3 +1,4 @@
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?>
 <div class="wrap">
 <h2><?php if(isset($order_id)) echo 'Order #'.$order_id; else echo 'Add new order';?></h2>
 <form id="posts-filter" action="" method="post" onsubmit="">

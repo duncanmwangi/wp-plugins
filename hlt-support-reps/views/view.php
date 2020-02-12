@@ -1,3 +1,4 @@
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?>
 <div class="wrap">
 <h2>ORDER #<?php echo $order_id; ?></h2>
 <?php

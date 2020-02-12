@@ -8,6 +8,7 @@
  * Author URI: http://gmarkhosting.com
  * License: GPL2
  */
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 add_action('init','ccj_create_tables');
 add_action( 'woocommerce_coupon_options_usage_restriction', 'wcc_add_conjuction_fields');
 add_action( 'woocommerce_coupon_options_save', 'wcc_save_conjuction_fields');

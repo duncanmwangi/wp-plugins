@@ -1,4 +1,4 @@
-<?php
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?><?php
     if(isset($_POST['save_btn'])){
         $drp_rebate_amount = $_POST['drp_rebate_amount'];
         $drp_coupon_amount = $_POST['drp_coupon_amount'];

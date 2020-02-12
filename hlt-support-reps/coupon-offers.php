@@ -1,4 +1,5 @@
 <?php 
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 global $cop_offers_tbl, $cop_offer_coupons_tbl;
 $cop_offers_tbl = 'wp_cop_offers'; 
 $cop_offer_coupons_tbl = 'wp_cop_offer_coupons';

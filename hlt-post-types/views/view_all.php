@@ -1,3 +1,4 @@
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?>
 <div class="wrap">
 <h2><?php echo $hlt_pt->name; ?>&nbsp; &gt;&gt; &nbsp;Field Settings <a href="<?php echo admin_url('admin.php?page=hlt-pt-post-types&hlt_pg=field-settings&id='.$p_type_id.'&action=add');?>" class="add-new-h2">Add Field</a></h2>
 

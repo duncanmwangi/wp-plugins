@@ -1,3 +1,4 @@
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?>
 <div class="wrap">
 <h2>Field Settings <a href="<?php echo $vtype==1? admin_url('edit.php?post_type=hlt-support&page=dim-hlt-settings&action=add') :  admin_url('edit.php?post_type=hlt-returns&page=dim-hlt-returns-settings&action=add'); ?>" class="add-new-h2">Add Field</a></h2>
 

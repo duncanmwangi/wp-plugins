@@ -1,4 +1,4 @@
-<?php
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?><?php
 
 $startDate1 = '01-'.date('m-Y');
 $endDate1 = date('d-m-Y');

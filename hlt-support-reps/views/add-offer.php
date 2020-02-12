@@ -1,4 +1,5 @@
 <?php
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
     $cop_error = false;
     if(isset($_POST['save_btn'])){
         $cop_name = $_POST['cop_name'];

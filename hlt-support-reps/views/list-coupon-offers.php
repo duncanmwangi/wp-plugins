@@ -1,3 +1,4 @@
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?>
 <?php
     if(isset($_GET['action']) && $_GET['action']=='create' && $offer){
 

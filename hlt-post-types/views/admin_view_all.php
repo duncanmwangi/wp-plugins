@@ -1,3 +1,4 @@
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?>
 <div class="wrap">
 <h2>HLT POST TYPES <a href="<?php echo admin_url('admin.php?page=hlt-pt-add'); ?>" class="add-new-h2">Add New</a></h2>
 

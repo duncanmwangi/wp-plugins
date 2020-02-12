@@ -1,4 +1,4 @@
-<?php
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?><?php
 	global $wpdb;
 
     if(!isset($_POST['fdate1']) || empty($_POST['fdate1']) ){

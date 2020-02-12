@@ -1,4 +1,4 @@
-<?php 
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?><?php 
 if(isset($_POST['add_save'])){
     global $wpdb,$hlt_pt_table;
     $name = $_POST['name'];

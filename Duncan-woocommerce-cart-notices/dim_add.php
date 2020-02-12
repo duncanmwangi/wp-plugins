@@ -1,3 +1,4 @@
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?>
 <?php 
 if(isset($_POST['add_save'])){
     global $wpdb,$notice_table,$notice_cat_table,$charset_collate;

@@ -1,4 +1,4 @@
-
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?>
 <?php
 $email = $this->db->get_row("SELECT * FROM $this->rebate_emails_tbl WHERE email_id=$email_id LIMIT 0,1");
 $total_order_amount = 0;

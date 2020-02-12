@@ -8,6 +8,7 @@
  * Author URI: http://gmarkhosting.com
  * License: GPL2
  */
+defined( 'ABSPATH' ) or die( 'No script kiddies please!' );
 add_action( 'woocommerce_coupon_options_usage_restriction', 'wcc_add_hidden_product_fields');
 add_action( 'woocommerce_coupon_options_save', 'wcc_save_hidden_product_fields');
 add_action( 'woocommerce_before_cart', 'dnc_add_product_to_cart' );
@@ -29,11 +30,6 @@ function wcc_add_hidden_product_fields()
       echo '</div><style type="text/css">
       	.options_groupk{font-weight: bold;}
       </style>';
-	/*echo '<div class="options_group options_groupx">';
-  woocommerce_wp_radio( array( 'id' => 'wcc_is_add_on_product_only', 'label' => __( 'Is an ADDON product', 'woocommerce' ), 'options' => array('yes'=>'YES','no'=>'NO'), 'description' => __( 'This field allows you to set if a product is an addon product or a normal product. Add-on products cannot be purchased alone in the cart.', 'woocommerce' ), 'data_type' => 'text', 'desc_tip' => true ) );
-      echo '</div><style type="text/css">
-      	.options_groupx{font-weight: bold;}
-      </style>';*/
 
      
 }

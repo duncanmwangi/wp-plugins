@@ -1,4 +1,4 @@
-<?php
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?><?php
     if(isset($_POST['save_btn'])){
         $Email = $_POST['Email'];
         $First_Name = $_POST['First_Name'];

@@ -1,4 +1,4 @@
-<?php 
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?><?php 
 if(isset($_POST['add_save'])){
     global $wpdb,$dim_hlt_table;
     $field_name = $_POST['field_name'];

@@ -1,4 +1,4 @@
-
+<?php defined( 'ABSPATH' ) or die( 'No script kiddies please!' ); ?>
 <div class="wrap">
 
 <div id="icon-options-general" class="icon32"></div>
