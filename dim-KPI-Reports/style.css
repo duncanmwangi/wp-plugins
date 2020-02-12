@@ -1,0 +1,30 @@
+.reportstbl tr td{
+        font-size: 15px;
+        border: 1px solid #ccc;
+        font-weight: bold;
+    }
+    .reportstbl tr th{
+        text-align: center;
+        font-size: 18px;
+        border: 1px solid #ccc;
+        font-weight: bold;
+    }
+
+    .reportstbl tr th span{
+        font-size: 15px;
+
+    }
+    .reportstbl tr td.nums{
+        text-align: center;
+        font-weight: lighter;
+    }
+    .tbl_periods td{
+        font-weight: bold;
+    }
+    .reportstbl tr td{
+        margin: 0px;
+    }
+    .reportstbl{
+        border-spacing: 0; */
+     border-collapse: collapse; 
+    }
